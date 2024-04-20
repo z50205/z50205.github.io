@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Biz's Home</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-color">
+        <div class="col-lg-9 offset-lg-1 container-fluid">
+            <a class="logo link-text" href="index.html" style="white-space: nowrap">Biz Hung</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse offset-lg-10" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <!-- <li class="nav-item">
+                        <a class="link-text" aria-current="page" href="aboutme.html" style="white-space: nowrap">About
+                            Me</a>
+                    </li> -->
+                    <li class="nav-item dropdown ">
+                        <a class="dropdown-toggle link-text" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="white-space: nowrap">
+                            Side Project 
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark navbar-color">
+                            <li><a class="dropdown-item link-text" href="index.html#flask">Website Develope</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item link-text" href="index.html#csharp">C#</a></li>
+                            <li><a class="dropdown-item link-text" href="index.html#unity">Unity</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="background-color:white;">
+        <div class="row">
+            <div class="col-lg-2 offset-lg-1 " style="max-width:300px;  ">
+                <div class="sideintro sticky-offset">
+                    <img class="bd-placeholder-img rounded-circle" width="100%" height="100%" src="static/profile.jpg"
+                        role="img" preserveAspectRatio="xMidYMid slice" focusable="false"
+                        style="margin:5px;box-shadow: 0 0 10px 0px;">
+
+                    </img>
+
+                    <p class="fw-bold fs-3">Biz Hung</p>
+                    <p>大學、研究所畢業於台大土木系，現職為結構工程師，並取得土木技師證照。<br>
+                        目前以軟體工程師為方向持續精進自己，期望邁入資訊產業修習修行。<br>
+                        認為每支程式都是一場探索，努力學習資訊各領域知識，並將想法實現於程式中。<br>
+                    </p>
+                    <button class="btn btn-info fw-bold fs-5" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample"
+                        style="color:white;border-radius:25px 25px 0px 0px;border-width: 3px 3px 0px 3px;border-color: rgb(202, 202, 202);">
+                        Tech Skills
+                    </button>
+                    <div class="collapse show" id="collapseExample">
+                        <div class="card card-body"
+                            style="border-radius:0px 0px 25px 25px ;border-width: 0px 3px 3px 3px;">
+                            <ol class="list-group list-group-flush" style="padding: 0px;">
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold fs-5">Develope</div>
+                                        Flask、HTML、CSS、JS
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold fs-5">Deploy</div>
+                                        Nginx、Docker、AWS
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold fs-5">Game Engine</div>
+                                        Unity
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-start">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold fs-5">Others</div>
+                                        git
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <span class="anchor" id="flask"></span>
+                <div class="bg-body-tertiary rounded-3 shadow-sm" id="check_flask"
+                    style="padding: 1.5rem; ; margin:10px;">
+                    <h1 class="h1_bold">網站開發</h1>
+                    <div class=".bg-body rounded-3 shadow-sm paragraph">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img class="border " src="static/twittor.png"
+                                    style="width: 100%; border-radius:5px 25px 25px 5px"></img>
+                            </div>
+                            <div class="col-lg-7 position-relative">
+                                <strong class="d-inline-block mb-2 text-primary-emphasis">Website Develope</strong>
+                                <h3 class="mb-0">專案名稱：Twittor</h3>
+                                <div class="mb-1 text-body-secondary">開發時間：Dec 2023</div>
+                                <p class="card-text mb-auto">
+                                    1.本專案為利用Python Flask、Bootstrap 、MySQL、Nginx、Docker架設並部署在 AWS 的類Twitter網站。<br>
+                                    2.實作使用者註冊、驗證及登入交互功能；並提供發布貼文及上傳相片功能。<br>
+                                </p>
+                                <div style="display: flex; justify-content: end;">
+                                    <!-- <svg >
+                                    </svg> -->
+                                    <a href="https://bizara.link" target="_blank" style="color:black; text-decoration: none; ">
+                                        <div class="border border-radius link-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-window" viewBox="0 0 16 16">
+                                                <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"/>
+                                                <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1M2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1z"/>
+                                              </svg>
+                                            <div style="display:inline-block">Demo Site</div>
+                                        </div>
+                                    </a>
+                                    <a href="https://github.com/z50205/python" target="_blank"
+                                        style="color:black; text-decoration: none; ">
+                                        <div class="border border-radius link-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                                fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                            </svg>
+                                            <div style="display:inline-block">Github</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=".bg-body rounded-3 shadow-sm paragraph">
+                        <div class="row">
+                            <div class="col-lg-7 position-relative">
+                                <strong class="d-inline-block mb-2 text-primary-emphasis">Website Develope</strong>
+                                <h3 class="mb-0">專案名稱：Beam Reviser Web</h3>
+                                <div class="mb-1 text-body-secondary">開發時間：Mar 2024</div>
+                                <p class="card-text mb-auto">
+                                    1.利用原C#專案Beam Reviser，重新依Python
+                                    Flask、Bootstrap、Javascript、MySQL製作網站，以提供更為友善的GUI介面。<br>
+                                    2.配合原結構顧問公司之梁配筋資料檔，依最新鋼筋混凝土規範及公司標準圖統整修改梁配筋，減少修改時間及人工漏改情況，並配合前端JavaScript簡化懸挑端輸入方式。<br>
+                                </p>
+                                <div style="display: flex; justify-content: end;">
+                                    <!-- <svg >
+                                    </svg> -->
+                                    <a href="https://beam_viewer.bizara.link/" target="_blank" style="color:black; text-decoration: none; ">
+                                        <div class="border border-radius link-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-window" viewBox="0 0 16 16">
+                                                <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"/>
+                                                <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1M2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1z"/>
+                                              </svg>
+                                            <div style="display:inline-block">Demo Site</div>
+                                        </div>
+                                    </a>
+                                    <a href="https://github.com/z50205/beam_viewer_web" target="_blank"
+                                        style="color:black; text-decoration: none; ">
+                                        <div class="border border-radius link-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                                fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                            </svg>
+                                            <div style="display:inline-block">Github</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img class="border" src="static/beamreviser.png"
+                                    style="width: 100%; border-radius:25px 5px 5px 25px;"></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="anchor" id="csharp"></span>
+                <div class="bg-body-tertiary rounded-3 shadow-sm" id="check_csharp"
+                    style="padding: 1.5rem; margin:10px">
+                    <h1 class="h1_bold">C#</h1>
+                    <div class=".bg-body rounded-3 shadow-sm paragraph">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img class="border " src="static/beamrevise.png"
+                                    style="width: 100%; border-radius:5px 25px 25px 5px"></img>
+                            </div>
+                            <div class="col-lg-7 position-relative">
+                                <strong class="d-inline-block mb-2 text-primary-emphasis">C#</strong>
+                                <h3 class="mb-0">專案名稱：Beam Reviser</h3>
+                                <div class="mb-1 text-body-secondary">開發時間：Mar 2022</div>
+                                <p class="card-text mb-auto">
+                                    1.本專案利用C#程式語言撰寫，撰寫讀取梁鋼筋資料檔、並依規範、標準圖修改梁鋼筋資料檔，並另存修改後之資料檔。<br>
+                                    2.配合原結構顧問公司之梁配筋資料檔，依最新鋼筋混凝土規範及公司標準圖統整修改梁配筋，減少修改時間及人工漏改情況<br>
+                                </p>
+                                <div style="display: flex; justify-content: end;">
+                                    <!-- <svg >
+                                    </svg> -->
+                                    <a href="https://github.com/z50205/beam_reviser" target="_blank"
+                                        style="color:black; text-decoration: none; ">
+                                        <div class="border border-radius link-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                                fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                            </svg>
+                                            <div style="display:inline-block">Github</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="anchor" id="unity"></span>
+                <div class="bg-body-tertiary rounded-3 shadow-sm" id="check_unity"
+                    style="padding: 1.5rem; ; margin:10px;">
+                    <h1 class="h1_bold">Unity</h1>
+                    <div class=".bg-body rounded-3 shadow-sm paragraph">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <img class="border " src="static/chaty.png"
+                                    style="width: 100%; border-radius:5px 25px 25px 5px"></img>
+                            </div>
+                            <div class="col-lg-7 position-relative">
+                                <strong class="d-inline-block mb-2 text-primary-emphasis">Unity</strong>
+                                <h3 class="mb-0">專案名稱：Chaty</h3>
+                                <div class="mb-1 text-body-secondary">開發時間：Jan 2022</div>
+                                <p class="card-text mb-auto">
+                                    1.本專案為利用Unity引擎結合多人線上Photon PUN模組製作線上聊天程式。<br>
+                                    2.配合Photon PUN模組進行創造房間、加入房間，彼此可以觀看到聊天內容於自己的代表形象上。<br>
+                                </p>
+                                <div style="display: flex; justify-content: end;">
+                                    <!-- <svg >
+                                    </svg> -->
+                                    <a href="https://youtu.be/Sf-gl0UnUb8" target="_blank" style="color:black; text-decoration: none; ">
+                                        <div class="border border-radius link-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                              </svg>
+                                            <div style="display:inline-block">Demo Vid</div>
+                                        </div>
+                                    </a>
+                                    <a href="https://github.com/z50205/Chaty" target="_blank"
+                                        style="color:black; text-decoration: none; ">
+                                        <div class="border border-radius link-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                                fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                            </svg>
+                                            <div style="display:inline-block">Github</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=".bg-body rounded-3 shadow-sm paragraph">
+                        <div class="row">
+                            <div class="col-lg-7 position-relative">
+                                <strong class="d-inline-block mb-2 text-primary-emphasis">Unity</strong>
+                                <h3 class="mb-0">專案名稱：Story Talker</h3>
+                                <div class="mb-1 text-body-secondary">開發時間：Jul 2023</div>
+                                <p class="card-text mb-auto">
+                                    1.本專案為利用Unity引擎製作另類的聽覺小說模擬器。<br>
+                                    2.發想源自於墨西哥小說「佩德羅·巴拉莫」，讀者會探索各個故事講述者，惟探索過程可依行進路線或停留或錯過，亦搭配Unity的3D聲響系統，期盼有更特別的聽覺小說體驗。<br>
+                                </p>
+                                <div style="display: flex; justify-content: end;">
+                                    <!-- <svg >
+                                    </svg> -->
+                                    <a href="https://drive.google.com/file/d/1nNXvOwuV6-7DW13gy4qlLgin3b39MOZf/view?usp=sharing" target="_blank" style="color:black; text-decoration: none; ">
+                                        <div class="border border-radius link-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-android" viewBox="0 0 16 16">
+                                                <path d="M2.76 3.061a.5.5 0 0 1 .679.2l1.283 2.352A8.9 8.9 0 0 1 8 5a8.9 8.9 0 0 1 3.278.613l1.283-2.352a.5.5 0 1 1 .878.478l-1.252 2.295C14.475 7.266 16 9.477 16 12H0c0-2.523 1.525-4.734 3.813-5.966L2.56 3.74a.5.5 0 0 1 .2-.678ZM5 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                                              </svg>
+                                            <div style="display:inline-block">APK</div>
+                                        </div>
+                                    </a>
+                                    <a href="https://youtu.be/7eb-ZKiMDaA" target="_blank" style="color:black; text-decoration: none; ">
+                                        <div class="border border-radius link-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                              </svg>
+                                            <div style="display:inline-block">Demo Vid</div>
+                                        </div>
+                                    </a>
+                                    <a href="https://github.com/z50205/storytalker" target="_blank"
+                                        style="color:black; text-decoration: none; ">
+                                        <div class="border border-radius link-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                                fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                            </svg>
+                                            <div style="display:inline-block">Github</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img class="border" src="static/storytalker.png"
+                                    style="width: 100%; border-radius:25px 5px 5px 25px;"></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1" style="min-width:100px;">
+                <ul class="list-unstyled sideintro sticky-offset">
+                    <li class="my-1">
+                        <a href="index.html#flask"><button type="button"
+                                class="btn sidenavitem d-inline-flex align-items-center collapsed border-0"
+                                data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#contents-collapse"
+                                aria-controls="contents-collapse" id="sidenavitem_flask"
+                                style="border-radius:20px 20px 5px 5px">Website Develope</button></a>
+                        <!-- <ul class="list-unstyled ps-3 collapse" id="contents-collapse">
+                            <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                    href="#figures">Figures</a></li>
+                        </ul> -->
+                    </li>
+                    <li class="my-1">
+                        <a href="index.html#csharp"><button type="button"
+                                class="btn sidenavitem d-inline-flex align-items-center collapsed border-0"
+                                data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#forms-collapse"
+                                aria-controls="forms-collapse" id="sidenavitem_csharp"
+                                style="border-radius:5px 5px 5px 5px">c#</button></a>
+                        <ul class="list-unstyled ps-3 collapse" id="forms-collapse">
+                        </ul>
+                    </li>
+                    <li class="my-1">
+                        <a href="index.html#unity"><button type="button"
+                                class="btn sidenavitem d-inline-flex align-items-center collapsed border-0"
+                                data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#components-collapse"
+                                aria-controls="components-collapse" id="sidenavitem_unity"
+                                style="border-radius:5px 5px 20px 20px">Unity</button></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="static/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
