@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Biz's Home</title>
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-color">
+      <div class="col-lg-9 offset-lg-1 container-fluid">
+        <a class="logo link-text" href="index.html" style="white-space: nowrap"
+          >Biz Hung</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse offset-lg-10" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a
+                class="link-text"
+                aria-current="page"
+                href="resume.html"
+                style="white-space: nowrap"
+                >Wehelp申請書</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="dropdown-toggle link-text"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="white-space: nowrap"
+              >
+                Side Project
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark navbar-color">
+                <li>
+                  <a class="dropdown-item link-text" href="index.html#flask"
+                    >Website Developement</a
+                  >
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item link-text" href="index.html#csharp"
+                    >C#</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item link-text" href="index.html#unity"
+                    >Unity</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid" style="background-color: white">
+      <div class="row">
+        <div class="col-lg-2 offset-lg-1" style="max-width: 300px">
+          <div class="sideintro sticky-offset">
+            <img
+              class="bd-placeholder-img rounded-circle"
+              width="100%"
+              height="100%"
+              src="static/profile.jpg"
+              role="img"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              style="margin: 5px; box-shadow: 0 0 10px 0px"
+            />
+
+            <p class="fw-bold fs-3">Biz Hung</p>
+            <p>
+              大學、研究所畢業於台大土木系，原為結構工程師，並取得土木技師證照。<br />
+              目前以軟體工程師為方向持續精進自己，期望邁入資訊產業修習修行。<br />
+              認為每支程式都是一場探索，努力學習資訊各領域知識，並將想法實踐於程式中。<br />
+            </p>
+            <button
+              class="btn btn-info fw-bold fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample"
+              aria-expanded="true"
+              aria-controls="collapseExample"
+              style="
+                color: white;
+                border-radius: 25px 25px 0px 0px;
+                border-width: 3px 3px 0px 3px;
+                border-color: rgb(202, 202, 202);
+              "
+            >
+              Tech Skills
+            </button>
+            <div class="collapse show" id="collapseExample">
+              <div
+                class="card card-body"
+                style="
+                  border-radius: 0px 0px 25px 25px;
+                  border-width: 0px 3px 3px 3px;
+                "
+              >
+                <ol class="list-group list-group-flush" style="padding: 0px">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold fs-5">Developement</div>
+                      Flask、Node.js、HTML、CSS、JS
+                    </div>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold fs-5">Deploy</div>
+                      Nginx、Docker、AWS
+                    </div>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold fs-5">Game Engine</div>
+                      Unity
+                    </div>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-start"
+                  >
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold fs-5">Others</div>
+                      git
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <span class="anchor" id="flask"></span>
+          <div
+            class="bg-body-tertiary rounded-3 shadow-sm"
+            id="check_flask"
+            style="padding: 1.5rem; margin: 10px"
+          >
+            <h1 class="h1_bold">自身概述</h1>
+            <div class=".bg-body rounded-3 shadow-sm paragraph">
+              <strong class="d-inline-block mb-2 text-primary-emphasis"
+                >Personal Profile</strong
+              >
+              <h3 class="mb-0">個人簡介和申請動機</h3>
+              <p class="card-text mb-auto">
+                個人簡介：<br />
+                我是洪彬祐，大學、研究所畢業於台大土木系，原為土木工程領域的結構工程師，但因為生涯規劃考量，希望前往資訊工程接受挑戰。<br />
+                於就學、就業之餘不斷地加強、實踐各種資訊工程領域的知識，不只訓練程式邏輯能力，也是在學習拆分問題、鎖定問題、逐步解決、整合測試、效能迭代，
+                並藉此過程製作一些生產力工具並製作遊戲Demo，也了解我對於資訊產業未有不適之感。<br />
+                後續考量職涯發展，因為前後端網頁設計對於跨領域職缺較多，故經由Udemy課程逐步學習以Flask為基礎的技術棧，也簡單了解Nodejs環境下的基礎功能
+                並學習了基本的雲端部屬(AWS)微服務(Docker)的能力，已自行發展一個SocketIO同步畫布專案。<br />
+                申請動機：<br />
+                因為現階段獲得面試的機會很少，所以希望能藉由培訓課程讓我能更加分。<br />
+                其次是現階段學習皆是以自學的方式學習，基本上依賴教學影片(Udemy+Youtube)並輔以ChatGPT學習，但是期待培訓課程可以系統性的學習，補足為求速成產生的漏洞。<br />
+                最後是Flask框架完成開始編寫業務程式碼時，雖然都可以逐步實現我所想像的功能，但是這些功能是否有「未設想的例外」、「效率提升的可能」卻沒有概念，希望能於此次培訓學習處理問題及提升效能的方法論。<br />
+                <br />
+              </p>
+            </div>
+            <div class=".bg-body rounded-3 shadow-sm paragraph">
+              <strong class="d-inline-block mb-2 text-primary-emphasis"
+                >Personal Profile</strong
+              >
+              <h3 class="mb-0">
+                曾經做過哪些軟體工程技術相關的學習？若有作品請分享給我們
+              </h3>
+              <p class="card-text mb-auto">
+                目前已開發專案請詳Side Project分頁。<br />
+                SharingSketch專案為自行開發的線上共享畫布專案，雖現有框架Flask已經提供了許多伺服器交互功能，但因為「共享畫布」無法以既有模板處理，故仍需從業務場景轉化為設計概念，
+                並一步步轉化為程式碼，這段過程是格外有成就感且收穫滿滿的，也藉此理解SocketIO實現用戶端、伺服端的「事件」功能；後續也利用內建的redis，使可增加分散式伺服器，處理高併發的業務場景。
+              </p>
+            </div>
+          </div>
+          <span class="anchor" id="csharp"></span>
+          <div
+            class="bg-body-tertiary rounded-3 shadow-sm"
+            id="check_csharp"
+            style="padding: 1.5rem; margin: 10px"
+          >
+            <h1 class="h1_bold">規劃及展望</h1>
+            <div class=".bg-body rounded-3 shadow-sm paragraph">
+              <strong class="d-inline-block mb-2 text-primary-emphasis"
+                >Planning and Prospects</strong
+              >
+              <h3 class="mb-0">如果參與這個訓練，會怎麼安排學習時間？</h3>
+              <p class="card-text mb-auto">
+                現階段為待業並已開始找尋軟體產業的工作，我會依本培訓課程各階段的負擔去調整，以本培訓課程作為優先項，並依序分時間予尋找工作、刷程式題以理解各種演算法、增加現有專案使用的技術棧。
+                後續如已找到相關工作，也會嘗試調整工作及培訓兼顧。
+              </p>
+            </div>
+            <div class=".bg-body rounded-3 shadow-sm paragraph">
+              <strong class="d-inline-block mb-2 text-primary-emphasis"
+                >Planning and Prospects</strong
+              >
+              <h3 class="mb-0">
+                軟體技術日新月異，如何確定選擇投入的領域是正確有回報的？
+              </h3>
+              <p class="card-text mb-auto">
+                過往有一段時間利用Youtube影片學習CSS的動態效果，但學習許久後才覺得對整體全端技術的掌握幫助有限，後來才了解以框架去學習更容易了解網頁開發的過程，
+                畢竟時間有限，一切都是機會成本，回報或許都有不過成效絕不相同，後來我於開始學習之前，就會先了解技術棧的概念或業務場景是否有獨創性或必要性?使用的可能性有多大?
+                是否為現階段需要的技術棧?對自己全端技術的觀念，是否有全面的幫助?還是都是case by case的技巧?<br />
+                不過即使是最流行的技術棧在時間長河中可能也會更迭，所以仍要不斷地學習，只要分析後對自己有幫助的觀念或技術都要去了解並學習，才能有最全面的工具箱恰當地執行任務。
+              </p>
+            </div>
+            <div class=".bg-body rounded-3 shadow-sm paragraph">
+              <strong class="d-inline-block mb-2 text-primary-emphasis"
+                >Planning and Prospects</strong
+              >
+              <h3 class="mb-0">
+                請描述一件產生明顯負面情緒的經歷，如何處理該情緒？
+              </h3>
+              <p class="card-text mb-auto">
+                過往工作時，因為建商設定的時程關係，結構設計往往沒有足夠的時間處理，也因此大概每一到兩周就要夜晚加班及周末加班處理，當然有時也會有情緒產生，
+                但覺得這些情緒應去主動調適，如果有錯誤是應該自行調整觀念去修正，如果工作量太大應與主管討論或增加工作效率，不過突如其來的情緒也是棘手，
+                所以後來於忙碌之中仍適時運動及去做有興趣的事以轉移注意力；後續為跳脫這種困境，於較為空閒的業餘時間利用大學的程式基礎開發一些生產力小程式，
+                降低一些工作上的重複性事務，提升工作效率，也將程式與同事分享，讓整個部門可以從部分設計的瑣事中解放出來。
+              </p>
+            </div>
+            <div class=".bg-body rounded-3 shadow-sm paragraph">
+              <strong class="d-inline-block mb-2 text-primary-emphasis"
+                >Planning and Prospects</strong
+              >
+              <h3 class="mb-0">關於這份申請網頁，分享一個開發時的技術心得。</h3>
+              <p class="card-text mb-auto">
+                製作申請網頁最有在使用的就是前端技巧，也是基本的html,CSS,javascript應用，感想如以下：
+              </p>
+              <ol type="1">
+                <li>bootstrap是可以快速提升一個網頁設計感的預工具組。</li>
+                <li>
+                  切版是真的蠻困難的，如何在各種設備都能完美呈現要不斷地調適。
+                </li>
+                <li>
+                  最後javascript其實是我覺得前端網頁最重要的基本功，因目前本人共享畫布專案的繪圖功能基本皆以javascript實現，深感javascript對於開發應用是蠻重要的工具。
+                </li>
+              </ol>
+            </div>
+            <div class=".bg-body rounded-3 shadow-sm paragraph">
+              <strong class="d-inline-block mb-2 text-primary-emphasis"
+                >Planning and Prospects</strong
+              >
+              <h3 class="mb-0">如何看待自身工作和整個社會群體的連結關係？</h3>
+              <p class="card-text mb-auto">
+                如我有幸於資訊領域工作，我認為資訊工程與其他工程相同處為都是利民利己的服務產業，
+                當然以甲方的利益有關，這也是與社會群體連結比較現實及實際的部分。<br />
+                不過資訊工程與其他工程領域不同處我認為有以下特點<br />
+              </p>
+              <ol type="1">
+                <li>
+                  規模彈性：工程可以依需求調整規模，這對於展示想法階段是非常有幫助的，短的開發週期，也代表這是一個可以快速回饋社會想法的工具。
+                </li>
+                <li>
+                  開源社群：相較其他工程學科的師父領進門，資訊領域的敲門磚是可以利用網路學習的，故可以快速吸收知識，如自身行有餘力時也可以回饋社會貢獻社群。
+                </li>
+              </ol>
+              <p class="card-text mb-auto">
+                我個人也希望能增進自己程式技巧，並於生活經驗中尋找並開發具有創造力的資訊應用，於業餘分享並貢獻社會，這也是我追尋並努力的方向。<br />
+              </p>
+            </div>
+            <div class=".bg-body rounded-3 shadow-sm paragraph">
+              <strong class="d-inline-block mb-2 text-primary-emphasis"
+                >Planning and Prospects</strong
+              >
+              <h3 class="mb-0">其他想要對我們說的事情？</h3>
+              <p class="card-text mb-auto">
+                感謝閱讀到此處，但因為轉換軌道不熟悉資訊產業其實有些問題想了解<br />
+              </p>
+              <ol type="1">
+                <li>
+                  以目前我的技術棧及專案展現的東西，會有需要進入培訓班加強訓練已取得前後端工作嗎?還是推薦學習更進階的AI課程呢?
+                </li>
+                <li>
+                  資訊工程是學無止盡的領域，不過會有建議先學習那些東西以增強自己的人力市場競爭力嗎?
+                </li>
+                <li>
+                  本Bootcamp培訓是否屬資策會的培訓計畫?是否有相關的證明以示結業呢?
+                </li>
+              </ol>
+              <p class="card-text mb-auto">
+                最後再次感謝Wehelp社群願意規劃此培訓課程，在其他培訓機構不再專注訓練網頁工程師時，還能有一個地方繼續培養前後端技能十分感謝！
+              </p>
+            </div>
+          </div>
+          <span id="check_unity"></span>
+        </div>
+        <div class="col-lg-1" style="min-width: 100px">
+          <ul class="list-unstyled sideintro sticky-offset">
+            <li class="my-1">
+              <a href="resume.html#flask"
+                ><button
+                  type="button"
+                  class="btn sidenavitem d-inline-flex align-items-center collapsed border-0"
+                  data-bs-toggle="collapse"
+                  aria-expanded="false"
+                  data-bs-target="#contents-collapse"
+                  aria-controls="contents-collapse"
+                  id="sidenavitem_flask"
+                  style="border-radius: 20px 20px 5px 5px"
+                >
+                  Personal Profile
+                </button></a
+              >
+              <!-- <ul class="list-unstyled ps-3 collapse" id="contents-collapse">
+                            <li><a class="d-inline-flex align-items-center rounded text-decoration-none"
+                                    href="#figures">Figures</a></li>
+                        </ul> -->
+            </li>
+            <li class="my-1">
+              <a href="resume.html#csharp"
+                ><button
+                  type="button"
+                  class="btn sidenavitem d-inline-flex align-items-center collapsed border-0"
+                  data-bs-toggle="collapse"
+                  aria-expanded="false"
+                  data-bs-target="#forms-collapse"
+                  aria-controls="forms-collapse"
+                  id="sidenavitem_csharp"
+                  style="border-radius: 5px 5px 20px 20px"
+                >
+                  Planing / Prospects
+                </button></a
+              >
+              <ul class="list-unstyled ps-3 collapse" id="forms-collapse"></ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="static/js/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
