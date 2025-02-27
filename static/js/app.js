@@ -21,8 +21,8 @@ window.onscroll = function () { a() };
 window.onload = function () { a() };
 
 function a() {
-    var check_inform = ["check_flask", "check_csharp", "check_unity"];
-    var sidenavitem_inform = ["sidenavitem_flask", "sidenavitem_csharp", "sidenavitem_unity"];
+    var check_inform = ["check_web", "check_other"];
+    var sidenavitem_inform = ["sidenavitem_web", "sidenavitem_other"];
     var distance_betwwwn_center = [99999, 99999, 99999];
     for (var i = 0; i < sidenavitem_inform.length; i++) {
         distance_betwwwn_center[i]=isScrolledIntoView(document.getElementById(check_inform[i]));
